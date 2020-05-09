@@ -1,5 +1,13 @@
 import ReactDOM from 'react-dom'
+import React from 'react'
 
 const root = document.getElementById('root')
+const tag = <strong>Olá, Mundo!</strong>
 
-ReactDOM.render('Olá, Mundo!', root)
+
+ReactDOM.render(
+    <div>
+        { tag }
+    </div>,
+    root
+)
